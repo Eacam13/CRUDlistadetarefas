@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #94a3b8;
+}
+
+.container {
+    width: 500px;
+    height: auto;
+    background-color: rgb(42, 75, 146);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 200px;
+    align-items: center;
+}
+
+
+.title {
+    text-align: center;
+    margin-top: 10px;
+    color: antiquewhite;
+    font-size: 18px;
+}
+
+.areaInput {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.inputTask {
+    width: 300px;
+    height: 30px;
+    border-radius: 6px;
+    padding-left: 4px;
+    font-size: 16px;
+}
+
+.btn {
+    width: 40px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: rgb(15, 193, 238);
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+.areaTasks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 400px;
+    height: 20px;
+    background-color: darkcyan;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    
+}
+
+.task {
+    color: rgb(241, 217, 217);
+    
+}
+
+.btns {
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btnEdit, .btnExcluir {
+    width: 20px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkcyan;
+    border: none;
+}
+
+.iconEdit, .iconExcluir {
+    width: 26px;
+    height: 16px;
+    color: rgb(235, 241, 241);
+}
+
+.areaTasks:hover {
+    background: linear-gradient(45deg, #0f0f0f, 90%, #f3f4f6);
+}
+
+.task:hover {
+    color: aliceblue;
+}
+
+.iconEdit:hover {
+    color: rgb(228, 238, 238);
+    background-color: rgb(1, 8, 15);
+}
+
+.iconExcluir:hover {
+    color: rgb(228, 238, 238);
+    background-color: rgb(199, 19, 6);
+}
+
+.listaTarefas {
+    margin-bottom: 20px;
+}
