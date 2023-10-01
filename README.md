@@ -1,6 +1,6 @@
 # React + Vite
 
-# In English Version
+## In English Version
 
 CRUD Project - Task List
 How to run the project...
@@ -10,7 +10,7 @@ How to run the project...
 
 Tips are always welcome. Let's code and keep improving!
 
-#Versão em Português
+##Versão em Português
 ## Projeto CRUD - Lista de Tarefas
 
 Como rodar o projeto...
