@@ -1,8 +1,7 @@
 # React + Vite
 
 ## In English Version
-
-CRUD Project - Task List
+##CRUD Project - Task List
 How to run the project...
 1- Open the project folder in your command prompt (cmd)
 2- Run the command 'npm install' to install the necessary dependencies
